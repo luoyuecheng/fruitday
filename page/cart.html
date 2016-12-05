@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>天天果园-水果网购首选品牌,只为一份极致的新鲜！</title>
+  <link rel="stylesheet" type="text/css" href="../css/commont.css" />
+  <link rel="stylesheet" type="text/css" href="../css/cart.css" />
+  <script type="text/javascript" src="../libs/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="../libs/jquery.cookie.js"></script>
+  <script type="text/javascript" src="../js/pageCommon.js"></script>
+  <script type="text/javascript" src="../js/cart.js"></script>
+</head>
+<body>
+  <!-- 网页头部 盒子包裹，动态加载 -->
+  <div id="headerBox"></div>
+
+
+  <!-- 网页主体部分 -->
+  <div id="cart_main">
+
+    <!-- 购物车主体中的头部 -->
+    <div class="cart_filter_bar">
+      <div class="myCart">
+        <p>我的购物车</p>
+        <a href="shopList.html">继续逛逛&gt;</a>
+      </div>
+    </div><!-- 购物车主体中的头部 -> 结束 -->
+
+    <!-- 购物车主体内容 -->
+    <div class="cartmain">
+      <!-- 购物车头 -->
+      <div class="cartHead">
+        <div class="cart_select">
+          <p class="seleAll"></p>
+          <span>全选</span>
+        </div>
+        <div class="cart_good">
+          <span>商品</span>
+        </div>
+        <div class="cart_spec">
+          <span>规格</span>
+        </div>
+        <div class="cart_price">
+          <span>单价(元)</span>
+        </div>
+        <div class="cart_number">
+          <span>数量</span>
+        </div>
+        <div class="cart_sum">
+          <span>原价(元)</span>
+        </div>
+        <div class="cart_action">
+          <span>操作</span>
+        </div>
+      </div><!-- 购物车头 -> 结束 -->
+      <!-- 购物车订单 -->
+      <div class="cart_order">
+        <!-- 订单信息 -->
+        <ul class="list_unstyled">
+          <li id="c_normal_16044">
+            <div class="cartbox">
+              <div class="cartorder_select">
+                <p></p>
+              </div>
+              <div class="cart_imgs">
+                <a href="information.html" target="_blank"><img src="http://imgqn9.fruitday.com/images/product_pic/12059/1/1-270x270-12059-FWTTKDF5.jpg"></a>
+              </div>
+              <div class="cart_name">
+                <p><a href="information.html">越南红心火龙果</a></p>
+              </div>
+              <div class="spec_num">
+                <p>5斤</p>
+              </div>
+              <div class="price_singular">
+                <p>￥49.90</p>
+              </div>
+              <div class="num_sel_lage">
+                <span class="goods_buy_left">-</span>
+                <input type="text" name="" value="1" disabled="disabled">
+                <span class="goods_buy_right">+</span>
+              </div>
+              <div class="sum">
+                <p>￥49.90</p>
+              </div>
+              <div class="delete">
+                <p><a href="javascript:void(0)">删除</a></p>
+              </div>
+            </div>
+          </li>
+        </ul><!-- 订单信息 -> 结束 -->
+
+        <!-- 促销 -->
+        <div class="m_carttips">
+          <div class="send_free">
+            <p>促</p>
+          </div>
+          <p><a href="/" title="">【尝鲜换购】7.9换购时令鲜蔬，限量800份，换完即止，还差29.10元，去凑单</a></p>
+        </div><!-- 促销 -> 结束 -->
+
+      </div><!-- 购物车订单 -> 结束 -->
+
+      <!-- 结算 -->
+      <div class="cartfooter">
+        <div class="cart_select">
+          <p class="seleAll"></p>
+          <span>全选</span>
+        </div>
+        <div class="cart_pay">
+          <span class="goodsSelect">已选择 <em>0件</em> 商品 | 订单金额</span>
+          <span class="goodsPrice">￥0</span>
+          <a href="javascript:void(0)" class="go_pay">去结算</a>
+        </div>
+      </div>
+
+    </div><!-- 购物车主体内容 -> 结束 -->
+
+    <!-- 查看历史 -->
+    <div class="look_history">
+      <!-- 查看历史的头部 -->
+      <div class="scrollbar clearfix">
+        <ul class="clearfix">
+          <li class="looked">
+            <p>你最近浏览过的商品</p>
+          </li>
+          <li>
+            <p>你可能感兴趣的商品</p>
+          </li>
+        </ul>
+      </div><!-- 查看历史的头部 -> 结束 -->
+      <!-- 查看历史浏览商品 -> 正文内容 -->
+      <div class="look_history_con">
+        <!-- 查看历史浏览 -->
+        <div class="wrap">
+          <div class="frame">
+            <ul class="slidee">
+              <li>
+                <a href="information.html?id=fr00015" target="_blank">
+                  <img src="../images/information/shoppingList00001_003.jpg" alt="">
+                  <p class="history_name">越南红心火龙果</p>
+                  <p class="history_price">￥49.90 / 5斤</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="prev">
+            <div></div>
+          </div>
+          <div class="next">
+            <div></div>
+          </div>
+        </div><!-- 查看历史浏览 -> 结束 -->
+        <!-- 查看你可能感兴趣的商品 -->
+        <div class="wrap" style="display: none;">
+          <div class="frame">
+            <ul class="slidee">
+              <li>
+                <a href="information.html" target="_blank">
+                  <img src="http://imgqn5.fruitday.com/images/product_pic/10626/1/1-270x270-10626-PTKRB91F.jpg" alt="">
+                  <p class="history_name">佳沛新西兰奇异果</p>
+                  <p class="history_price">￥49.90 / 5斤</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="prev">
+            <div></div>
+          </div>
+          <div class="next">
+            <div></div>
+          </div>
+        </div><!-- 查看你可能感兴趣的商品 -> 结束 -->
+      </div><!-- 查看历史浏览商品 -> 正文内容 -> 结束 -->
+    </div>
+
+  </div><!-- 网页主体部分 -> 结束 -->
+
+
+  <!-- 确认删除遮罩 -->
+  <div id="p_dialog">
+    <div class="dialog_mask"></div>
+    <div class="dialog">
+      <h5>删除该商品吗？<span><img src="../images/shoppingList/cha.png"></span></h5>
+      <div class="dialog_con">
+        <div class="formitem">
+          <button type="button" class="btn_success">确 定</button>
+          <button type="button" class="btn_default">取 消</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 提示未选中商品遮罩 -->
+  <div id="p_warning">
+    <div class="warning_mask"></div>
+    <div class="warning">
+      <h5>请先选择下订单的商品！<span><img src="../images/shoppingList/cha.png"></span></h5>
+      <div class="warning_con">
+        <div class="warning_formitem">
+          <button type="button" class="warning_btn_success">确 定</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- 网页底部 盒子包裹，动态加载 -->
+  <div id="footerBox"></div>
+
+  <!-- 网页侧边三个功能按钮 盒子包裹，动态加载 -->
+  <div id="broadside_buttonBox"></div>
+
+
+  <!-- 遮罩层 -->
+  <div id="zhezhaoBox"></div>
+
+</body>
+</html>

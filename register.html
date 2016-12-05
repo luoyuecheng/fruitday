@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>天天果园-水果网购首选品牌,只为一份极致的新鲜！</title>
+  <link rel="stylesheet" type="text/css" href="css/commont.css" />
+  <link rel="stylesheet" type="text/css" href="css/register.css" />
+  <script type="text/javascript" src="libs/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="libs/jquery.cookie.js"></script>
+  <script type="text/javascript" src="js/commont.js"></script>
+  <script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+  <!-- 网页头部  盒子包裹，动态加载 -->
+  <div id="headerBox"></div>
+
+  <!-- 网页主体部分 -->
+  <div id="mojor">
+    <p>注册会员</p>
+    <div class="login_sec clearfix">
+      <div class="login_left">
+        <img src="images/register/huiyuan.jpg" alt="">
+        <a href="login.html" title="点击此按钮，登录会员账号">会员登录&gt;</a>
+      </div>
+      <div class="login_right">
+        <form action="login.html" method="post" accept-charset="utf-8">
+          <ul>
+            <li>
+              <i>手机号</i>
+              <input type="text" name="userID" value="">
+              <span></span><span class="iconError"></span>
+            </li>
+            <li>
+              <i>密码</i>
+              <input type="password" name="password" value="" placeholder="请输入6-20位号码字符">
+              <span></span>
+              <span class="iconError"></span>
+            </li>
+            <li>
+              <i>确认密码</i>
+              <input type="password" name="passwordSure" value="" placeholder="请输入6-20位号码字符">
+              <span></span>
+              <span class="iconError"></span>
+            </li>
+            <li>
+              <i>验证码</i>
+              <input type="text" name="code" value="">
+              <img src="images/register/register (1).jpg" alt="">
+              <a href="javascript:void(0)" title=""></a>
+              <span></span>
+              <span class="iconError"></span>
+            </li>
+            <li>
+              <i>手机验证码</i>
+              <input type="text" name="phoneCode" disabled value="">
+              <div>
+                <a href="javascript:void(0)" title="" class="aSend">发送验证码</a>
+                <a href="javascript:void(0)" title="" class="hide">还剩<b id="timeout">60</b>秒</a>
+              </div>
+              <span></span>
+              <span class="iconError"></span>
+            </li>
+            <li>
+              <input type="button" class="btn" name="" value="注册" style="cursor: pointer;">
+              <a href="login.html" title="">会员登录</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 网页底部  盒子包裹，动态加载 -->
+  <div id="footerBox"></div>
+
+  <!-- 右侧三个功能按钮 盒子包裹，动态加载 -->
+  <div id="broadside_buttonBox"></div>
+</body>
+</html>

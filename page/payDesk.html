@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>天天果园-水果网购首选品牌,只为一份极致的新鲜！</title>
+  <link rel="stylesheet" type="text/css" href="../css/commont.css" />
+  <link rel="stylesheet" type="text/css" href="../css/payDesk.css" />
+  <script type="text/javascript" src="../libs/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="../libs/jquery.cookie.js"></script>
+  <script type="text/javascript" src="../js/pageCommon.js"></script>
+  <script type="text/javascript" src="../js/payDesk.js"></script>
+</head>
+<body>
+  <!-- 网页头部 盒子包裹，动态加载 -->
+  <div id="headerBox"></div>
+
+
+  <!-- 付款主体 -->
+  <div class="pay_main">
+    <!-- 支付内容主体 -->
+    <div class="pay_content">
+      <!-- 提交订单成功提示栏 -->
+      <div class="succeed clearfix">
+        <!-- 订单状态 -->
+        <div class="order_info">
+          <div class="img"><img src="../images/order_pay/suc.png"></div>
+          <div class="payorders">
+            <p class="order">您已成功提交订单！</p>
+            <p class="min">请在15分钟内进行付款，超过时间后系统将自动取消订单！</p>
+            <div class="succeed_details">
+              <p class="ordernum">您的订单号:</p>
+              <p class="figure">160919021858</p>
+            </div>
+          </div>
+        </div><!-- 订单状态 -> 结束 -->
+
+        <!-- 支付详情和查看订单详情 -->
+        <div class="pay_info">
+          <p class="value">
+            订单金额: <strong id="really_pay">￥59.90</strong> 元
+          </p>
+          <a href="order.html" class="view">查看订单详情&gt;</a>
+        </div><!-- 支付详情和查看订单详情 -> 结束 -->
+      </div><!-- 提交订单成功提示栏 -> 结束 -->
+
+      <!-- 账号余额 -->
+      <div id="balance_box" class="clearfix">
+        <span></span>
+        <div class="floatLeft">
+          <div class="remain_deduction">账户余额抵扣</div>
+          <span class="now_remain">
+            当前余额 : <em>￥0.00</em> 元 <em>(余额不支持购买充值卡 余额支付不支持开发票)</em>
+          </span>
+        </div>
+        <div class="remain_deduct">
+          余额抵扣: <strong id="balance_deduction_money">￥0.00</strong>元
+        </div>
+      </div><!-- 账号余额 -> 结束 -->
+
+      <!-- 支付方式 -->
+      <div class="pay_options">
+        <div class="online_pay_title clearfix">
+          <span class="choose">请选择支付方式：</span>
+          <span class="pay_remain">
+            还需支付 : <strong id="need_online_pay">￥59.90</strong> 元
+          </span>
+        </div>
+        <div class="option_bd">
+          <ul id="pay_ment">
+            <li class="clearfix active" ppid="8" payid="0">
+              <span></span>
+              <label><img src="../images/order_pay/8_0.png" style="height: 25px; margin-right: 16px;">银联在线支付</label>
+            </li>
+            <li class="clearfix" ppid="7" payid="0">
+              <span></span>
+              <label><img src="../images/order_pay/7_0.png" style="height: 25px; margin-right: 16px;">微信支付</label>
+            </li>
+            <li class="clearfix" ppid="1" payid="0">
+              <span></span>
+              <label><img src="../images/order_pay/1_0.png" style="height: 25px; margin-right: 16px;">支付宝</label>
+            </li>
+            <li class="clearfix" ppid="3" payid="00105">
+              <span></span>
+              <label><img src="../images/order_pay/3_00105.png" style="height: 25px; margin-right: 16px;">广发银行信用卡(银联)</label>
+            </li>
+            <li class="clearfix" ppid="3" payid="00106">
+              <span></span>
+              <label><img src="../images/order_pay/3_00106.png" style="height: 25px; margin-right: 16px;">花旗银行(银联)</label>
+              <p class="actives">每周三专享，满99立减50元 ，每日限前1000名</p>
+            </li>
+            <li class="clearfix" ppid="3" payid="00102">
+              <span></span>
+              <label><img src="../images/order_pay/3_00102.png" style="height: 25px; margin-right: 16px;">浦发银行信用卡</label>
+            </li>
+            <li class="clearfix" ppid="3" payid="00003">
+              <span></span>
+              <label><img src="../images/order_pay/3_00003.png" style="height: 25px; margin-right: 16px;">中国建设银行</label>
+            </li>
+          </ul>
+          <input type="image" src="../images/order_pay/sure-pay.png" value="确认支付方式">
+          <!-- https://cashier.95516.com/b2c/index.action?transNumber=201609201248304610368 -->
+        </div>
+      </div><!-- 支付方式 -> 结束 -->
+    </div><!-- 支付内容主体 -> 结束 -->
+
+    <!-- 注意事项 -->
+    <div class="succeed_notice clearfix">
+      <div class="notice">
+        <span>注意事项</span>
+      </div>
+      <div class="notice_details">
+        <p>不支持无理由退换货</p>
+        <p>48小时可退换货，如有疑问，请拨打 <em>400-720-0770</em></p>
+      </div>
+    </div><!-- 注意事项 -> 结束 -->
+  </div><!-- 付款主体 -> 结束 -->
+
+
+  <!-- 网页底部 盒子包裹，动态加载 -->
+  <div id="footerBox"></div>
+
+  <!-- 网页侧边三个功能按钮 盒子包裹，动态加载 -->
+  <div id="broadside_buttonBox"></div>
+
+
+  <!-- 遮罩层 -->
+  <div id="zhezhaoBox"></div>
+
+</body>
+</html>

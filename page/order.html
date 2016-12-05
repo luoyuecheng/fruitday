@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>天天果园-水果网购首选品牌,只为一份极致的新鲜！</title>
+  <link rel="stylesheet" type="text/css" href="../css/commont.css" />
+  <link rel="stylesheet" type="text/css" href="../css/order.css" />
+  <script type="text/javascript" src="../libs/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="../libs/jquery.cookie.js"></script>
+  <script type="text/javascript" src="../js/pageCommon.js"></script>
+  <script type="text/javascript" src="../js/order.js"></script>
+</head>
+<body>
+  <!-- 网页头部 盒子包裹，动态加载 -->
+  <div id="headerBox"></div>
+
+
+  <!-- order下订单页面主体 -->
+  <div id="order_main">
+    <!-- 订单主体 -->
+    <div class="order_main">
+
+      <h3><i class="iconfont">&#xe607;</i>填写并核对订单信息</h3>
+
+      <h4>收货人信息<a href="javascript:void(0)" id="newaddress">新增收货地址</a></h4>
+
+      <div class="order_item">
+        <ul class="list_unstyled">
+          <li class="cur">
+            <span class="tag">广东省</span>
+            <span>sdfgasdf 17000000001 广东省广州市白云区中山路16号</span>
+            <span>
+              <a href="javascript:void(0)">编辑</a>
+              <a href="javascript:void(0)">删除</a>
+            </span>
+          </li>
+          <li class="">
+            <span class="tag">广东省</span>
+            <span>sdfgasdf 17000000001 广东省广州市白云区中山路16号</span>
+            <span style="display: none">
+              <a href="javascript:void(0)">编辑</a>
+              <a href="javascript:void(0)">删除</a>
+            </span>
+          </li>
+        </ul>
+        <div class="orderAddressSwitch"><strong>更多地址 </strong><span class="b_u"></span></div>
+      </div>
+
+      <h4>支付方式</h4>
+
+      <div class="order_pay clearfix">
+        <ul class="clearfix">
+          <li>在线支付</li>
+          <!-- <li>
+            <p>线下支付</p>
+            <div class="paytips">
+              <i class="iconfont"></i>
+              <p>在线提货券支付</p>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+
+      <h4>配送信息<a href="cart.html">修改购物车</a></h4>
+
+      <div class="order_form clearfix">
+        <div class="order_item_sendinfo">
+          <h5>
+            <span>配送时间</span>
+            <p>2016-09-20 09:00-18:00</p>
+            <!-- <a href="javascript:void(0)">修改</a> -->
+          </h5>
+          <h5>
+            <span>发票信息</span>
+            <p>无</p>
+            <!-- <a href="javascript:void(0)">修改</a> -->
+          </h5>
+          <h5>
+            <span>备注信息</span>
+            <textarea placeholder="请填写备注信息" rows="3" class=""></textarea><!-- textarea_focus -->
+          </h5>
+          <h5>
+            <span>运费：</span>
+            <span>￥20.00</span>
+          </h5>
+        </div>
+        <ul class="order_item_cartlist">
+          <li>
+            <dl class="clearfix">
+              <dt>
+                <img src="../images/information/shoppingList00001_003.jpg" alt="">
+              </dt>
+              <dd>
+                <div class="protitle">新西兰爵士苹果</div>
+                <div class="proinfo">￥39.90 / 6个 <span>x 1</span></div>
+                <!-- <span class="protag">赠品</span> -->
+              </dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+
+      <h4>使用积分/优惠券</h4>
+
+      <div class="order_item_discount">
+        <p>最多可抵扣￥5.00元，已抵扣<input type="text" value="0.00" />元</p>
+        <p>
+          <span>抵扣码及优惠券:不使用优惠券</span>
+          <a href="javascript:void(0)">选择</a>
+        </p>
+      </div>
+
+      <div class="order_item_inall">
+        <p>商品总金额：<span>￥39.90</span></p>
+        <p>运费：<span>￥20.00</span></p>
+        <p>商品减免：<span>￥0</span></p>
+        <p>积分抵扣：<span>￥0.00</span></p>
+        <p>优惠券抵扣：<span>￥0.00</span></p>
+        <p>其他抵扣：<span>￥0.00</span></p>
+      </div>
+
+      <div class="order_item_last">
+        <a href="javascript:void(0)">提交订单</a>
+        <strong>￥59.90</strong>
+        <span>应付金额</span>
+      </div>
+
+    </div><!-- 订单主体 -> 结束 -->
+  </div><!-- order下订单页面主体 -> 结束 -->
+
+
+  <!-- 各种的遮罩 -->
+  <div id="p_warning">
+    <div class="warning_mask"></div>
+    <div class="warning">
+      <h5>新增收货地址<span class="chachu"><img src="../images/shoppingList/cha.png"></span></h5>
+      <div class="warning_con">
+        <form>
+          <div class="formitem clearfix">
+              <label><span class="VI-color1">*</span>收货人</label>
+              <input type="text" class="inpText" maxlength="15" value="" id="name">
+          </div>
+          <div class="formitem clearfix">
+              <label><span class="VI-color1">*</span>选择地区</label>
+              <div class="inpSel">
+                <input type="hidden" value="106340" id="provice">
+                <span>省/直辖市</span>
+                <ul class="list-unstyled" style="display: none;">
+                  <li data-id="144252">广东省</li>
+                  <li data-id="143983">河北省</li>
+                  <li data-id="144005">天津</li>
+                  <li data-id="143949">北京</li>
+                  <li data-id="106340" class="cur">安徽省</li>
+                  <li data-id="1">江苏省</li>
+                  <li data-id="54351">浙江省</li>
+                  <li data-id="145855">上海郊区</li>
+                  <li data-id="106092">上海</li>
+                </ul>
+              </div>
+              <div class="inpSel">
+                <input type="hidden" value="142739" id="city">
+                <span id="spcity">市</span>
+                <ul id="lscity" class="list-unstyled" style="display: none;">
+                  <li data-id="106341">合肥市</li>
+                  <li data-id="142739">池州市</li>
+                  <li data-id="140334">亳州市</li>
+                  <li data-id="136386">六安市</li>
+                  <li data-id="130770">宿州市</li>
+                  <li data-id="126555">阜阳市</li>
+                  <li data-id="122473">滁州市</li>
+                  <li data-id="120049">黄山市</li>
+                  <li data-id="116543">安庆市</li>
+                  <li data-id="115943">铜陵市</li>
+                  <li data-id="114716">淮北市</li>
+                  <li data-id="113743">马鞍山市</li>
+                  <li data-id="112546">淮南市</li>
+                  <li data-id="110702">蚌埠市</li>
+                  <li data-id="109303">芜湖市</li>
+                  <li data-id="144431">宣城市</li>
+                </ul>
+              </div>
+            <div class="inpSel sel1">
+              <input type="hidden" value="142740" id="area">
+              <span id="sparea">区／县</span>
+              <ul id="lsarea" class="list-unstyled" style="display: none;">
+                <li data-id="142740">贵池区</li>
+                <li data-id="143341">东至县</li>
+                <li data-id="145674">石台县</li>
+                <li data-id="145675">青阳县</li>
+              </ul>
+            </div>
+          </div>
+          <div class="formitem clearfix">
+            <label><span class="VI-color1">*</span>详细地址</label>
+            <input type="text" class="inpText" value="" style="width:540px; *width:520px;" id="detailAddr">
+          </div>
+          <div class="formitem clearfix">
+            <label><span class="VI-color1">*</span>手机号码</label>
+            <input type="text" class="inpText" value="" id="tel">
+          </div>
+          <div class="formitem clearfix">
+            <input type="checkbox" id="def" class="inpCheck" value="0">
+            <label for="def" style="width:auto;">设为为默认收货地址</label>
+          </div>
+          <div class="formitem clearfix">
+            <button type="button" class="btn btn-success" id="submit">保存收货人信息</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- 网页底部 盒子包裹，动态加载 -->
+  <div id="footerBox"></div>
+
+  <!-- 网页侧边三个功能按钮 盒子包裹，动态加载 -->
+  <div id="broadside_buttonBox"></div>
+
+
+  <!-- 遮罩层 -->
+  <div id="zhezhaoBox"></div>
+
+</body>
+</html>

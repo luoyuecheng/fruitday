@@ -1,0 +1,196 @@
+
+.content
+{
+  font-size: 12px;
+}
+
+.logNavContent .collapse
+{
+  min-width: 768px;margin-right: 0;margin-left: 0;
+}
+.logNavContent .collapse ul
+{
+  width: 352px;height: 42px;background: url('../images/icons.png') no-repeat -39px -1005px;float: right;margin-right: 32px;
+}
+.logNavContent .collapse ul li
+{
+  position: relative;margin-top: 7px;font-size: 20px;font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;text-align: center;float: left;
+}
+.logNavContent .collapse ul li:nth-child(1)
+{
+  left: -10px;
+}
+.logNavContent .collapse ul li:nth-child(2)
+{
+  left: 80px;
+}
+.logNavContent .collapse ul li:nth-child(3)
+{
+  left: 165px;
+}
+.logNavContent .collapse ul li span
+{
+  color: #fff;
+}
+.logNavContent .collapse ul li p
+{
+  color: #64a131;margin-top: 12px;font-size: 12px;
+}
+
+.pay_main
+{
+  padding-top:18px;padding-bottom:13px;background:#eee;
+}
+.pay_content
+{
+  width:1000px;margin:0 auto;
+}
+.succeed
+{
+  padding:25px 16px 32px 16px;background:#fff;
+
+  .order_info{
+    float:left;
+
+    .img{
+      padding-top:15px;float:left;
+
+      img{
+        vertical-align:middle;display:block
+      }
+    }
+
+    .payorders{
+      margin-left:29px;float:left;
+
+      p{
+      margin:0 0 10px;
+      }
+      .order{
+        font:24px "Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#64a131;margin-top:13px;margin-bottom:0;
+      }
+      .min{
+        font:16px "Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#999;margin-bottom:0;line-height:35px;
+      }
+      .succeed_details{
+        p{
+          font:16px "Hiragino Sans GB","Microsoft YaHei",sans-serif;margin-bottom:0;
+        }
+        .ordernum{
+          color:#999;float:left;
+        }
+        .figure{
+          color:#555;float:left;
+        }
+      }
+    }
+  }
+  .pay_info{
+    padding:60px 0 0 30px;
+    float:right;
+
+    .value{
+      font:16px "Hiragino Sans GB","Microsoft YaHei",sans-serif;margin:0 0 10px;
+      strong{
+        color:#f6ab00;font-weight:bold;
+      }
+    }
+    a{
+      padding-left:45px;color:#f6ab00;text-decoration:underline;font:16px "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    }
+  }
+}
+
+#balance_box{
+  margin-top:16px;margin-bottom:16px;padding:0 16px;padding-top:16px;background:#fff;cursor:pointer;
+
+  span:nth-child(1){
+    background:url('../images/icons.png') no-repeat -62px -192px;display:block;float:left;height:20px;width:20px;margin:6px 35px 46px 16px;
+  }
+
+  .floatLeft{
+    float:left;
+
+    .remain_deduction{
+      color:#999;font:20px "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    }
+    .now_remain{
+      font:16px "Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#999;line-height:30px;
+
+      em{
+        font-style:normal;
+      }
+    }
+  }
+  .remain_deduct{
+    font:16px "Hiragino Sans GB","Microsoft YaHei",sans-serif;float:right;color:#999;
+    strong{
+      font-weight:bold;
+    }
+  }
+}
+
+.pay_options{
+  background:#fff;margin-bottom:32px;
+
+  .online_pay_title{
+    padding:16px;padding-left:16px;border-bottom:1px solid #eee;
+
+    .choose{
+      font:16px "Hiragino Sans GB","Microsoft YaHei",sans-serif;float:left;
+    }
+    .pay_remain{
+      font:16px "Hiragino Sans GB","Microsoft YaHei",sans-serif;float:right;
+
+      strong{
+        color:#f6ab00;font-weight:bold;
+      }
+    }
+  }
+
+  .option_bd{
+    li{
+      position:relative;padding:14px 0 13px 35px;border-bottom:1px solid #eee;cursor:pointer;font:20px "Hiragino Sans GB","Microsoft YaHei",sans-serif;box-sizing:border-box;
+
+      span{
+        position:absolute;top:35%;left:3%;display:inline-block;width:20px;height:20px;margin-right:35px;background:url('../images/icons.png') no-repeat -62px -192px;
+      }
+      label{
+        display:inline-block;margin-bottom:0;font-size:20px;font-weight:normal;padding-left:36px;font:20px "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+
+        img{
+          display:inline-block;vertical-align: middle;
+        }
+      }
+      p{
+        position:absolute;right:20px;top:23px;color:#f6ab00;margin:0 0 10px;
+      }
+    }
+    .active{
+      border:1px solid #64a131;color:#64a131;
+
+      span{
+        background-position:-62px -157px;
+      }
+    }
+
+  }
+  input{
+    padding:25px;outline:none;font-family:inherit;font-size:inherit;line-height:inherit;
+  }
+}
+
+.succeed_notice{
+  width:1000px;margin:0 auto;padding:34px 8px 30px 10px;border-bottom:1px solid #ccc;border-top:1px solid #ccc;font:14px "Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#999;
+
+  .notice{
+    float:left;
+  }
+  .notice_details{
+    padding-left:24px;float:left;
+
+    em{
+      font-style:normal;color:#f6ab00;
+    }
+  }
+}

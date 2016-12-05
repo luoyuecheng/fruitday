@@ -1,0 +1,50 @@
+{
+  "recommend":
+  [
+    ["images/homepage/fruit_kinds/fruit_kinds0001.jpg","澳大利亚蜜桔","￥49.90/6个","page/information.html?id=fr00001"],
+    ["images/homepage/fruit_kinds/fruit_kinds0002.jpg","云南蒙自石榴","￥39.90/6+2个","page/information.html?id=fr00002"],
+    ["images/homepage/fruit_kinds/fruit_kinds0003.jpg","泰国山竹","￥58.00/2斤","page/information.html?id=fr00003"],
+    ["images/homepage/fruit_kinds/fruit_kinds0004.jpg","泰国椰青","￥49.90/4个","page/information.html?id=fr00004"],
+    ["images/homepage/fruit_kinds/fruit_kinds0005.jpg","新西兰柠檬","￥29.00/8个","page/information.html?id=fr00005"],
+    ["images/homepage/fruit_kinds/fruit_kinds0006.jpg","精选华山梨","￥69.90/6个","page/information.html?id=fr00006"],
+    ["images/homepage/fruit_kinds/fruit_kinds0007.jpg","精选百香果","￥19.90/6个","page/information.html?id=fr00007"],
+    ["images/homepage/fruit_kinds/fruit_kinds0008.jpg","凯特芒果","￥39.90/4+1斤","page/information.html?id=fr00008"],
+    ["images/homepage/fruit_kinds/fruit_kinds0009.jpg","新疆西州蜜瓜","￥39.90/1个","page/information.html?id=fr00009"],
+    ["images/homepage/fruit_kinds/fruit_kinds0010.jpg","进口香蕉","￥49.00/4斤","page/information.html?id=fr00010"]
+  ],
+  "fruit":
+  [
+    ["images/homepage/fruit_kinds/fruit_kinds0011.jpg","云南脆柿","￥49.90/12个","page/information.html?id=fr00011"],
+    ["images/homepage/fruit_kinds/fruit_kinds0012.jpg","台湾麻豆文旦","￥59.00/3个","page/information.html?id=fr00012"],
+    ["images/homepage/fruit_kinds/fruit_kinds0013.jpg","南非葡萄酒","￥39.90/6个","page/information.html?id=fr00013"],
+    ["images/homepage/fruit_kinds/fruit_kinds0014.jpg","精选波姬无花果","￥29.00/4个","page/information.html?id=fr00014"],
+    ["images/homepage/fruit_kinds/fruit_kinds0015.jpg","陕西冬枣","￥39.90/2斤","page/information.html?id=fr00015"]
+  ],
+  "fresh":
+  [
+    ["images/homepage/fruit_kinds/fruit_kinds0016.jpg","优选东海带鱼段","￥29.00/400g","page/information.html?id=fr00016"],
+    ["images/homepage/fruit_kinds/fruit_kinds0017.jpg","越南巴沙鱼","￥23.80/300-400g","page/information.html?id=fr00017"],
+    ["images/homepage/fruit_kinds/fruit_kinds0018.jpg","巴西精选牛腩块","￥32.90/500g","page/information.html?id=fr00018"],
+    ["images/homepage/fruit_kinds/fruit_kinds0019.jpg","优选青虾仁","￥29.00/200g","page/information.html?id=fr00019"],
+    ["images/homepage/fruit_kinds/fruit_kinds0020.jpg","日式素鲍鱼","￥19.00/230g","page/information.html?id=fr00001"],
+    ["images/homepage/fruit_kinds/fruit_kinds0021.jpg","阿根廷雪花鲳鱼","￥29.90/300-400g","page/information.html?id=fr00002"],
+    ["images/homepage/fruit_kinds/fruit_kinds0022.jpg","新西兰小牛脊骨","￥19.00/500g","page/information.html?id=fr00003"],
+    ["images/homepage/fruit_kinds/fruit_kinds0023.jpg","苏食童子鸡","￥29.00/750g","page/information.html?id=fr00004"],
+    ["images/homepage/fruit_kinds/fruit_kinds0024.jpg","南翔小笼包","￥9.90/180g","page/information.html?id=fr00005"],
+    ["images/homepage/fruit_kinds/fruit_kinds0025.jpg","狼山散养土鸡蛋","￥19.00/10个","page/information.html?id=fr00006"]
+  ],
+  "gift":
+  [
+    ["images/homepage/fruit_kinds/fruit_kinds0026.jpg","福聚礼盒","￥680.00/礼篮","page/information.html?id=fr00007"],
+    ["images/homepage/fruit_kinds/fruit_kinds0027.jpg","欢乐时光水果礼盒","￥188.00/礼篮","page/information.html?id=fr00008"],
+    ["images/homepage/fruit_kinds/fruit_kinds0028.jpg","外服秋月满溢礼盒","￥288.00/1盒","page/information.html?id=fr00009"],
+    ["images/homepage/fruit_kinds/fruit_kinds0029.jpg","Mom's Love","￥268.00/1盒","page/information.html?id=fr00010"],
+    ["images/homepage/fruit_kinds/fruit_kinds0030.jpg","花间秋色《雅》鲜果礼盒","￥268.00/1盒","page/information.html?id=fr00011"],
+    ["images/homepage/fruit_kinds/fruit_kinds0031.jpg","月满中秋《喜》鲜果礼盒","￥168.00/1盒","page/information.html?id=fr00012"],
+    ["images/homepage/fruit_kinds/fruit_kinds0032.jpg","星光闪耀《团》鲜果礼盒","￥108.00/1盒","page/information.html?id=fr00013"],
+    ["images/homepage/fruit_kinds/fruit_kinds0033.jpg","外服秋月星晴礼盒","￥168.00/1盒","page/information.html?id=fr00014"],
+    ["images/homepage/fruit_kinds/fruit_kinds0034.jpg","与众不同礼盒","￥288.00/1盒","page/information.html?id=fr00015"],
+    ["images/homepage/fruit_kinds/fruit_kinds0035.jpg","红运连连礼盒","￥228.00/1盒","page/information.html?id=fr00016"]
+  ]
+}
+

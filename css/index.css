@@ -1,0 +1,52 @@
+@charset 'utf-8';
+
+.logNavContent .nav li:first-child a{color:#64a131;}
+.logNavContent .nav li:first-child em{display: block;border-bottom: 2px solid #64a131;position: absolute;bottom: 0;left: 0;width: 100%;}
+
+
+/* 轮播图部分 */
+#bannerBox{width: 100%;height: 400px;}
+#banner{max-width: 1349px;height: 400px;position: relative;overflow: hidden;margin: 0 auto;}
+.slidee{height: 400px;position: absolute;width: 100%;}
+.slidee li{height: 100%;float:left;}
+.slidee li a{display: block;width: 100%;height: 100%;overflow: hidden;text-align: center;}
+.slidee li a img{display: block;width: 100%;height: 100%;background-size: cover;}
+/* 轮播图下点击按钮 */
+.slideeBtn{position: absolute;height: 20px;width: 100%;bottom:20px;left:0;text-align: center;z-index: 02;}
+.slideeBtn li{display: inline-block;height: 18px;border:1px solid #64a131;border-radius: 50%;width: 18px;background: rgba(100, 161, 49, 0.1);margin:0 8px;cursor: pointer;}
+
+/* 网页内容主体部分 */
+#main{width: 1280px;margin:0 auto;}
+  /* 广告展示 */
+.showd{width: 1280px;margin-top: 10px;margin-bottom: 50px;width: 1310px;}
+.showd li{width: 300px;height: 140px;float: left;margin-right: 26px;}
+.showd li a{display: block;width: 300px;height: 140px;cursor: pointer;}
+.showd li a img{display: block;width: 300px;height: 140px;}
+
+/* 商品列表 */
+.fruit_kinds{}
+.title{width: 1280px;height: 67px;padding: 15px 0 10px; font-size: 14px;line-height: 42px;color: #333;border-top: 1px solid #ccc;}
+.title h3{float: left;height:67px;background: url('../images/homepage/guan_t1.png') no-repeat;width: 1000px;}
+.title .more{display: block;float: right;color: #333;}
+.title .more a{color: #333;}
+.title .more a:hover{text-decoration: underline;box-sizing: border-box;font-size: 14px;}
+.good_list{width: 1285px;min-height: 310px;overflow: hidden;}
+.good_list ul{width: 1290px;}
+.good_list li{float: left;height: 305px;width: 248px;margin:0 5px 5px;}
+.good_list .good_img{width: 248px;height: 248px;overflow: hidden;margin-bottom: 5px;}
+.good_list .good_img img{display: block;width: 248px;height: 248px;}
+.good_list .good_img .good_img_hua{width: 278px;height: 278px;margin-top: -15px;margin-left:-15px;}
+.good_list .good_info{width: 248px;height: 48px;position: relative;}
+.good_list .good_info strong{display: block;font-weight: normal;font-style: normal;padding-left: 2px;overflow: hidden;text-overflow: ellipsis;max-width: 210px;white-space: nowrap;color: #555;font-size: 14px;}
+.good_list .good_info strong a{color: #555;}
+.good_list .good_info strong a:hover{text-decoration: underline;}
+.good_list .good_info span{display: block;width: 120px;color: #999;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;font-size: 14px;}
+.good_list .good_info .good_che{position: absolute;width: 34px;height: 34px;top:auto;bottom: 5px;right: 2px;background: url('../images/icons.png') no-repeat -517px -243px;cursor: pointer;}
+/* 第二个 */
+.dTwo .title h3{background: url('../images/homepage/guan_t2.png') no-repeat;}
+/* 第三个 */
+.dThree .title h3{background: url('../images/homepage/guan_t3.png') no-repeat;}
+/* 第四个 */
+.dFour .title h3{background: url('../images/homepage/guan_t4.png') no-repeat;}
+
+
